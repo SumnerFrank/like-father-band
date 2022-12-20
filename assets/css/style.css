@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#headerBox {
+    color: white;
+}
+
+#heroPhoto {
+ border-radius: 8%;   
+ width: 100%;
+}
+
+.navLink {
+    flex-direction: row;
+    display: inline;
+}
+
+#about {
+    color: white;
+}
