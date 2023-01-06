@@ -1,22 +1,92 @@
-* {
-    font-family: sans-serif;
-    background-color: black;
-}
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-image: url("assets/images/websiteBanner.png");
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
 
-#headerBox {
-    color: white;
-}
-
-#heroPhoto {
- border-radius: 8%;   
- width: 100%;
-}
-
-.navLink {
-    flex-direction: row;
-    display: inline;
-}
-
-#about {
-    color: white;
-}
+  .banner {
+    width: 100%;
+    margin: -2.23% auto;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #666666;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
